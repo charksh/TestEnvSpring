@@ -38,7 +38,7 @@ public class MapperController {
 		return "sample2";
 	}
     
-	@RequestMapping(value = "/sample.do")
+	@RequestMapping(value = "/sample")
 	public String sampleOne(Model model) throws Exception {
 		logger.info("========> SamepleController");
 		
